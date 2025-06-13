@@ -1,0 +1,310 @@
+.bg-gray-100 {
+    background-image: url("../images/Tshirts.jpg");
+    background-size: cover;
+    /* Ensures the image covers the entire container */
+    background-position: center top 5%;
+    /* Adjusts the image to shift it upwards */
+    background-repeat: no-repeat;
+    filter: brightness(100%);
+    position: relative;
+    color: rgb(207, 199, 185);
+    /* Change text color to white */
+}
+
+
+/* Optional: Adjust for different screen sizes */
+
+.bg-gray-100::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+    z-index: 1;
+}
+
+.bg-gray-100 .content {
+    position: relative;
+    z-index: 100;
+    /* Ensure the content is on top of the overlay */
+}
+
+.text-left b,
+.text-left h1,
+.text-left p {
+    color: white;
+    /* Ensure all text inside the .text-left class is white */
+}
+
+.med_logo {
+    background-image: url('../images/Devilsanother.png');
+    /* Ensure the correct path to the image */
+    background-size: contain;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+    width: 70px;
+    /* Original width */
+    height: 40px;
+    /* Original height */
+    transform: scale(1.5);
+    /* Scale the logo */
+    transform-origin: left center;
+    background-position: center;
+    /* Keep the left side fixed */
+}
+
+main {
+    min-height: 400px;
+    /* Or your desired height */
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.bg-gray-100 p-8 {
+    background-image: url("../images/Group2.jpg");
+    background-size: cover;
+    background-position: top center;
+    filter: brightness(50%);
+}
+
+.content {
+    color: white;
+}
+
+
+/* Home.css */
+
+.items {
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    /* Collapsed by default */
+}
+
+.items.flex {
+    max-height: 500px;
+    /* Set to a value that fits your menu items */
+}
+
+.hamburger {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .items {
+        max-height: none;
+        /* No max height for larger screens */
+    }
+}
+
+
+/* Home.css */
+
+
+/* Button Styles */
+
+.custom-button {
+    background-color: #eb9f13;
+    /* Orange color */
+    color: white;
+    /* Text color */
+    padding: 10px 20px;
+    /* Increase padding for length */
+    border-radius: 17px;
+    /* Slightly rounded corners */
+    font-size: 16px;
+    /* Adjust font size if needed */
+    border: none;
+    /* Remove border */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    transition: background-color 0.3s;
+    /* Add transition for hover effect */
+}
+
+.custom-button:hover {
+    background-color: #FF8C00;
+    /* Darker orange on hover */
+}
+
+
+/* Home.css */
+
+
+/* Styles for diagonal and larger elements */
+
+.diagonal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.diagonal-item {
+    width: 100%;
+    height: 48px;
+    /* Increase the height */
+    background-color: #D1D5DB;
+    /* Same as bg-gray-300 */
+    transform: rotate(-10deg);
+    /* Diagonal rotation */
+    margin: 0 1rem;
+    /* Spacing between items */
+}
+
+@media (min-width: 768px) {
+    .diagonal-item {
+        width: 32%;
+        /* Adjust width for larger screens */
+        height: 64px;
+        /* Increase the height */
+    }
+}
+
+.diagonal-item:nth-child(even) {
+    transform: rotate(10deg);
+    /* Alternate direction for even items */
+}
+
+
+/* Home.css */
+
+
+/* Button Styles */
+
+
+/* Home.css */
+
+
+/* Button Styles */
+
+
+/* Home.css */
+
+
+/* Button Styles */
+
+.custom-button {
+    background-color: #d89a26;
+    /* Orange color */
+    color: white;
+    /* Text color */
+    padding: 10px 20px;
+    /* Increase padding for length */
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    font-size: 16px;
+    /* Adjust font size if needed */
+    border: none;
+    /* Remove border */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    transition: background-color 0.3s;
+    /* Add transition for hover effect */
+}
+
+.custom-button:hover {
+    background-color: #FF8C00;
+    /* Darker orange on hover */
+}
+
+
+/* Styles for diagonal and larger elements */
+
+.diagonal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.diagonal-item {
+    width: 100%;
+    height: 48px;
+    /* Increase the height */
+    background-color: #D1D5DB;
+    /* Same as bg-gray-300 */
+    transform: rotate(-10deg);
+    /* Diagonal rotation */
+    margin: 0 1rem;
+    /* Spacing between items */
+}
+
+@media (min-width: 768px) {
+    .diagonal-item {
+        width: 32%;
+        /* Adjust width for larger screens */
+        height: 64px;
+        /* Increase the height */
+    }
+}
+
+.diagonal-item:nth-child(even) {
+    transform: rotate(10deg);
+    /* Alternate direction for even items */
+}
+
+
+/* New Container Styles */
+
+.new-container {
+    background-color: #E5E7EB;
+    /* Background color gray */
+    padding: 2rem;
+    /* Padding */
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    margin-left: 15%;
+    /* Adjust margin to align left */
+    width: 50%;
+    /* Set a width */
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.diagonal-item {
+    background-color: rgba(180, 133, 32, 0.696);
+}
+
+.text-xl font-bold {
+    color: #67645f;
+}
+
+.blue-footer {
+    background-color: rgb(105, 133, 161);
+    color: white;
+}
+
+.blue-footer li a{
+    color: white;
+}
+
+.blue-footer span a{
+    color: white;
+}
+
+.custom-font {
+    /* Change this to the font you prefer */
+    font-size: 1.2rem;
+    /* Adjust the font size if needed */
+    font-weight: 500;
+    /* Adjust the font weight if needed */
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    /* text-gray-700 */
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(134, 160, 205);
+
+}
+
+
+

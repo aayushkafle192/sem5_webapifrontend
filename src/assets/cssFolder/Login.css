@@ -1,0 +1,318 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    /* border: 1px solid black; */
+    width: 80vw;
+    height: 90vh;
+    margin-left: 114px;
+    margin-top: 20px;
+    border-radius: 48px;
+    display: flex;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2), 0px 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.left {
+    /* border: 2px solid gray; */
+    height: 90vh;
+    width: 500px;
+    /* margin-left: 20px; */
+    /* border-radius: 78px; */
+    background-image: url('../images/denimnation.jpg');
+    background-position: center;
+    background-size: contain;
+    /* Small curve */
+    border-bottom-left-radius: 47px;
+    /* Small curve */
+}
+
+.right {
+    /* border: 2px solid rgb(236, 126, 42); */
+    height: 90vh;
+    width: 590px;
+    /* margin-left: 20px; */
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    background-color: white;
+}
+
+.top {
+    /* border: 2px solid rgb(36, 36, 192); */
+    height: 80px;
+    width: 254px;
+    margin-left: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bottom {
+    /* border: 2px solid rgb(229, 11, 189); */
+    height: 63vh;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 25px;
+    /* background-image: url(../images/model-removebg-preview.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 78px;
+}
+
+.top p {
+    /* font-weight: 500; */
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
+.main1 {
+    /* border: 2px solid rgb(196, 31, 155); */
+    width: 550px;
+    height: 85vh;
+    margin-top: 5px;
+    /* border-radius: 48px; */
+    /* display: flex; */
+}
+
+.signin {
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    height: 60px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 30px;
+    position: relative;
+    top: 30px;
+    font-family: "Kanit", sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: #d88627
+}
+
+.form {
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    height: 130px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.signupbutton {
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    height: 41px;
+    width: 500px;
+    margin-top: 27px;
+    margin-left: 5px;
+}
+
+.down {
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    height: 175px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+/* .form input {
+    width: 450px;
+    height: 35px;
+    display: block;
+    margin-top: 10px;
+} */
+
+.form a {
+    text-decoration: none;
+    font-size: small;
+    color: #37867C;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.form input {
+    width: 450px;
+    height: 45px;
+    display: block;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #888787;
+    padding: 8px 0;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 11px;
+}
+
+.form input:focus {
+    outline: none;
+    border-bottom-color: #37867C;
+}
+
+.signupbutton button {
+    width: 450px;
+    height: 45px;
+    background-color: #d88627;
+    border-radius: 13px;
+    border: 1px white;
+    color: white;
+    font-weight: 600;
+}
+
+.box1 {
+    width: 480px;
+    height: 40px;
+    /* border: 1px solid pink; */
+    margin-left: 5px;
+    display: flex;
+    padding-left: 29px;
+    margin-top: 20px;
+}
+
+.box2 {
+    width: 480px;
+    height: 70px;
+    /* border: 1px solid rgb(204, 21, 57); */
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.box3 {
+    width: 480px;
+    height: 30px;
+    /* border: 1px solid rgb(149, 54, 212); */
+    margin-left: 5px;
+}
+
+.box1 .line1 {
+    height: 1px;
+    width: 140px;
+    margin-top: 9px;
+    margin-right: 7px;
+    /* border: 1px solid black; */
+}
+
+.box1 .line2 {
+    height: 1px;
+    width: 170px;
+    margin-top: 9px;
+    margin-left: 8px;
+    /* border: 1px solid black; */
+}
+
+.box1 .middle p {
+    font-size: small;
+    font-weight: 500;
+    color: gray;
+}
+
+.box2 .logo1 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 .logo2 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 .logo3 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 .logo4 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 90, 172);
+}
+
+.logo1 svg {
+    margin-top: 6px;
+}
+
+.logo1 i {
+    font-size: xx-large;
+    color: black;
+}
+
+.logo2 i {
+    font-size: xx-large;
+    color: rgb(22, 90, 172);
+}
+
+.logo3 i {
+    font-size: xx-large;
+    color: black;
+}
+
+.logo4 i {
+    font-size: xx-large;
+    color: white;
+}
+
+.box3 .part1 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.part1 p,
+.part1 a {
+    font-size: small;
+    color: black;
+}
+
+.part1{
+    margin-right: 60px;
+}
+
+.part1 a {
+    margin-left: 2px;
+    color: #090909;
+}
+
+.signupbutton button:hover {
+    cursor: pointer;
+    color: black;
+    
+}
+
+.social-icon {
+    font-size: 100px;
+    /* Adjust the size as needed */
+}

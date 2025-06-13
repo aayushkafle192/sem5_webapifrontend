@@ -8,20 +8,17 @@ import MainLayout from '../layouts/MainLayout'
 export default function AppRouter() {
   return (
     <BrowserRouter>
-        <Routes>
-            <Route element={<MainLayout/>}>
-                <Route path="/" element={<Homepage/>}></Route>
-                <Route path="/login" element={<Login/>}></Route>
-                <Route path='/register' element={<Register/>}></Route>
-            </Route>
-        </Routes>
+      <Routes>
+        {/* Public Routes outside MainLayout if any */}
+        
+        {/* Routes inside MainLayout */}
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Homepage />} />
+          
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
   )
 }
-// task
-// in login page
-// make 2 link 
-// go back -> routes to homepage
-// register -> routes to register
-// make footer and add it in layout
-// Footer - 2025 @ MyApp
