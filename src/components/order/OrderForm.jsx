@@ -979,7 +979,7 @@
 //             <div className="order-items">
 //               {cartItems.map((item) => (
 //                 <div key={item.id} className="summary-item">
-//                   <img src={item.image || "/placeholder.svg"} alt={item.name} className="item-image" />
+//                   <img sr={item.image || "/placeholder.svg"} alt={item.name} className="item-image" />
 //                   <div className="item-details">
 //                     <h4>{item.name}</h4>
 //                     <p>Qty: {item.quantity}</p>
