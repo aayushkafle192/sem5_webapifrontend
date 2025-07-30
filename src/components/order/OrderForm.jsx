@@ -943,7 +943,7 @@
 //                   className={errors.phone ? "error" : ""}
 //                 />
 //                 {erro.phon && <span classNa="error-message">{errors.phone}</span>}
-//               </div>
+//               </di>
 //               <div clas="form-gro">
 //                 <labl>Ci *</label>
 //                 <inpu
