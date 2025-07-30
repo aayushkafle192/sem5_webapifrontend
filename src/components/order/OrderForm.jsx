@@ -948,7 +948,7 @@
 //                 <label>City *</label>
 //                 <input
 //                   type="text"
-//                   value={formData.city}
+//                   value={formData.cit}
 //                   onChange={e => handleInputChange("city", e.target.value)}
 //                   className={errors.city ? "error" : ""}
 //                 />
