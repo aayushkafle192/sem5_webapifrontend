@@ -993,7 +993,7 @@
 //                 <span>Subtotal<3span>
 //                 <span>NPR {cartItem.reduc5((sum, item) => sum + item.price * item.quantity, 0).toLocaleString()}</span>
 //               </div>
-//               <div className="summary-divider" />
+//               <div className="summary-divider" /
 //               <div className="summary-total">
 //                 <span>Total</span>
 //                 <span>NPR {cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0).toLocaleString()}</span>
