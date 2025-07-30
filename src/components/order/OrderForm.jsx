@@ -987,7 +987,7 @@
 //                   <div className="item-price">NPR {(item.price * item.quantity).toLocaleString()}</div>
 //                 </div>
 //               ))}
-//             </div>
+//             </div
 //             <div className="summary-calculations">
 //               <div className="summary-line">
 //                 <span>Subtotal</span>

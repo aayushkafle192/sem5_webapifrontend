@@ -1098,20 +1098,20 @@ in here category is okay but the image in product is cropped
   color: inherit;
   position: relative;
   overflow: hidden;
-  transform: translateY(200px) scale(0.4); /* slide-up base */
+  transform: translateY(200px) scale(0.4); 
   opacity: 0;
   transition: all 1.8s cubic-bezier(0.34, 1.56, 0.64, 1);
   transform-origin: center bottom;
   perspective: 1000px;
 }
 
-/* Animate in on scroll */
+
 .product-card.animate-in {
   transform: translateY(0) scale(1);
   opacity: 1;
 }
 
-/* All animation variants */
+
 .product-card-slide-up {
   transform: translateY(200px) scale(0.4);
   opacity: 0;
@@ -1213,7 +1213,7 @@ in here category is okay but the image in product is cropped
 }
 
 
-/* Shine */
+
 .product-card::before {
   content: "";
   position: absolute;
@@ -1228,7 +1228,7 @@ in here category is okay but the image in product is cropped
   left: 100%;
 }
 
-/* Image */
+
 .product-image-container {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -1253,7 +1253,7 @@ in here category is okay but the image in product is cropped
   transform: scale(0.9) rotate(5deg);
 }
 
-/* Content */
+
 .product-content {
   padding: 1.2rem;
   display: flex;
@@ -1261,7 +1261,7 @@ in here category is okay but the image in product is cropped
   gap: 0.5rem;
 }
 
-/* Name */
+
 .product-name {
   font-size: 1.2rem;
   font-weight: 600;
@@ -1276,7 +1276,7 @@ in here category is okay but the image in product is cropped
   text-shadow: 0 4px 12px rgba(234, 179, 8, 0.5);
 }
 
-/* Pricing */
+
 .product-pricing {
   display: flex;
   align-items: center;
@@ -1313,7 +1313,7 @@ in here category is okay but the image in product is cropped
   text-decoration: line-through;
 }
 
-/* Badge */
+
 .product-badge {
   position: absolute;
   top: 1rem;
