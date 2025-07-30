@@ -944,7 +944,7 @@
 //                 />
 //                 {erro.phon && <span classNa="error-message">{errors.phone}</span>}
 //               </di>
-//               <div clas="form-gro">
+//               <di clas="form-gro">
 //                 <labl>Ci *</label>
 //                 <inpu
 //                   typ="tex"
