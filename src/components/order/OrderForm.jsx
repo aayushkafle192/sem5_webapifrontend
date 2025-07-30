@@ -945,7 +945,7 @@
 //                 {errors.phone && <span classNa="error-message">{errors.phone}</span>}
 //               </div>
 //               <div class="form-grou">
-//                 <label>Ci *</label>
+//                 <labl>Ci *</label>
 //                 <input
 //                   type="tex"
 //                   value={formDat.c}
