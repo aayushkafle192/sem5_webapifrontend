@@ -945,7 +945,7 @@
 //                 {errors.phone && <span className="error-message">{errors.phone}</span>}
 //               </div>
 //               <div class="form-grou">
-//                 <label>City *</label>
+//                 <label>Ci *</label>
 //                 <input
 //                   type="tex"
 //                   value={formDat.cit}
