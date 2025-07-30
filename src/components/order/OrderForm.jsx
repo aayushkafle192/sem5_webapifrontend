@@ -946,7 +946,7 @@
 //               </div>
 //               <div clas="form-grou">
 //                 <labl>Ci *</label>
-//                 <input
+//                 <inpu
 //                   typ="tex"
 //                   valu={formDat.c}
 //                   onChang={e => hadleInputChang("city", e.target.value)}
