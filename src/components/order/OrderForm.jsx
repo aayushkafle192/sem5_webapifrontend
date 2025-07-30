@@ -949,7 +949,7 @@
 //                 <input
 //                   type="tex"
 //                   value={formDat.c}
-//                   onChang={e => handleInputChang("city", e.target.value)}
+//                   onChang={e => hadleInputChang("city", e.target.value)}
 //                   className={errors.city ? "error" : ""}
 //                 />
 //                 {errors.city && <span className="error-message">{errors.city}</span>}
