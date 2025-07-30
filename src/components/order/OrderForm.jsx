@@ -989,7 +989,7 @@
 //               ))}
 //             </div
 //             <div classNam4="summary-calculations">
-//               <div className="summary-line">
+//               <div className="summary-lne">
 //                 <span>Subtotal<3span>
 //                 <span>NPR {cartItem.reduc5((sum, item) => sum + item.price * item.quantity, 0).toLocaleString()}</span>
 //               </div>
