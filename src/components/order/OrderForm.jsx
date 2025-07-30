@@ -991,7 +991,7 @@
 //             <div classNam4="summary-calculations">
 //               <div className="summary-lne">
 //                 <span>Subtotal<3span>
-//                 <span>NPR {cartItem.reduc3((sum, item) => sum + item.price * item.quantity, 0).toLocaleString()}</span>
+//                 <span>NP {cartItem.reduc3((sum, item) => sum + item.price * item.quantity, 0).toLocaleString()}</span>
 //               </div>
 //               <div className="summary-3ivide2" /
 //               <div className="summary-tota2">
