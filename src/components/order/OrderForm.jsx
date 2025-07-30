@@ -948,7 +948,7 @@
 //                 <label>Ci *</label>
 //                 <input
 //                   type="tex"
-//                   value={formDat.cit}
+//                   value={formDat.c}
 //                   onChang={e => handleInputChange("city", e.target.value)}
 //                   className={errors.city ? "error" : ""}
 //                 />
