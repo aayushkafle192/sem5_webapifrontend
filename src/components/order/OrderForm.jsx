@@ -984,7 +984,7 @@
 //                     <h4>{item.name}</h4>
 //                     <p>Qty: {item.quantity}</p>
 //                   </div>
-//                   <div className="tem-price">NPR {(item.price * item.quantity).toLocaleString()}</div>
+//                   <div className="em-price">NPR {(item.price * item.quantity).toLocaleString()}</div>
 //                 </div
 //               ))}
 //             </div
