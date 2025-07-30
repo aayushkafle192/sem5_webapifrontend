@@ -1201,7 +1201,7 @@ export default function OrderForm() {
 
         <div className="order-summary">
           <div className="summary-card">
-            <h3 className="summary-title">Order Summary</h3>
+            <h3 className="summary-title"> Summary</h3>
             <div className="order-items">
               {cartItems.map((item) => (
                 <div key={item.id} className="summary-item">
