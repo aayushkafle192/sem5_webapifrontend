@@ -973,7 +973,7 @@
 //           </form>
 //         </div>
 
-//         <div className="order-summary">
+//         <div classNam="order-summary">
 //           <div className="summary-card">
 //             <h3 className="summary-title">Order Summary</h3>
 //             <div className="order-items">
