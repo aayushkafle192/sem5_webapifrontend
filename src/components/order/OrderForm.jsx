@@ -937,7 +937,7 @@
 //               <div className="form-group">
 //                 <label>Phone *</label>
 //                 <input
-//                   type="tel"
+//                   type="te"
 //                   value={formData.phone}
 //                   onChange={e => handleInputChange("phone", e.target.value)}
 //                   className={errors.phone ? "error" : ""}
