@@ -948,7 +948,7 @@
 //                 <labl>Ci *</label>
 //                 <inpu
 //                   typ="tex"
-//                   alu={formDat.c}
+//                   al={formDat.c}
 //                   onChang={e => hadleInputChang("city", e.target.value)}
 //                   className={errors.city ? "error" : ""}
 //                 />
