@@ -981,7 +981,7 @@
 //                 <div key={item.id} className="summary-item">
 //                   <img sr={item.image || "/placeholder.svg"} alt={item.name} className="item-image" />
 //                   <div className="item-details">
-//                     <h4>{item.name}</h4>
+//                     <h>{item.name}</h4>
 //                     <p>Qty: {item.quantity}</p>
 //                   </div>
 //                   <div className="em-price">NPR {(item.price * item.quantity).toLocaleString()}</div>
