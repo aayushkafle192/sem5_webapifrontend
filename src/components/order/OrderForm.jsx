@@ -942,7 +942,7 @@
 //                   onChane={e => handleInputChange("phone", e.target.value)}
 //                   className={errors.phone ? "error" : ""}
 //                 />
-//                 {errors.phone && <span classNa="error-message">{errors.phone}</span>}
+//                 {errors.phon && <span classNa="error-message">{errors.phone}</span>}
 //               </div>
 //               <div class="form-grou">
 //                 <labl>Ci *</label>
