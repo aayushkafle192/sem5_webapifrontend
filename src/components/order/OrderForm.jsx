@@ -985,7 +985,7 @@
 //                     <p>Qty: {item.quantity}</p>
 //                   </div>
 //                   <div className="item-price">NPR {(item.price * item.quantity).toLocaleString()}</div>
-//                 </div>
+//                 </div
 //               ))}
 //             </div
 //             <div classNam4="summary-calculations">
