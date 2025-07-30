@@ -1,0 +1,283 @@
+/* Global Layout */
+.contact-page {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #0f0c29, #7e7aad, #24243e);
+  color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Hero Section */
+.hero1 {
+  padding: 6rem 1rem;
+  background: linear-gradient(to right, #c466b7, #6266b4);
+  text-align: center;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.hero-title1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.hero-divider {
+  width: 6rem;
+  height: 4px;
+  background-color: #facc15;
+  margin: 0 auto 1.5rem;
+  border-radius: 5px;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  color: #e0e0e0;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Grid Layout */
+.contact-content {
+  padding: 3rem 0;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Card Styles */
+.connect-card,
+.info-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid #6366f1;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.connect-card:hover,
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-content {
+  padding: 2rem;
+}
+
+.connect-title,
+.info-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #fbbf24;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Connect Center */
+.connect-center {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connect-icon {
+  background: radial-gradient(circle at center, #fbbf24 20%, transparent 100%);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-icon .icon {
+  color: #f472b6;
+  width: 2rem;
+  height: 2rem;
+}
+
+.connect-subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #e879f9;
+}
+
+.connect-description {
+  color: #d1d5db;
+  font-size: 1rem;
+}
+
+/* Options */
+.connect-options {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.option-card {
+  flex: 1;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #4f46e5;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.option-card:hover {
+  background: #6366f1;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.option-icon {
+  color: #fbbf24;
+  margin-bottom: 0.5rem;
+}
+
+.option-title {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.option-text {
+  font-size: 0.875rem;
+}
+
+/* CTA Button */
+.connect-cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.cta-button {
+  background: linear-gradient(to right, #f43f5e, #8b5cf6);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cta-button:hover {
+  background: linear-gradient(to right, #ec4899, #6366f1);
+}
+
+/* Info List */
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+.info-icon {
+  color: #a78bfa;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.info-label {
+  font-weight: 600;
+  color: #e0aaff;
+}
+
+.info-value {
+  color: #d6d3d1;
+}
+
+/* Services Section */
+.services {
+  margin-top: 4rem;
+}
+
+.services-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f472b6;
+  margin-bottom: 2rem;
+}
+
+.services-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #facc15;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  border-color: #f59e0b;
+}
+
+.service-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.service-icon {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #fde68a 20%, transparent 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-icon .icon {
+  color: #ec4899;
+  width: 2rem;
+  height: 2rem;
+}
+
+.service-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f9a8d4;
+  margin-bottom: 0.5rem;
+}
+
+.service-description {
+  color: #e5e7eb;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}

@@ -1,9 +1,12 @@
-import axios from './axios';
+import axios from "axios";
 
-export function loginUser(data) {
-  return axios.post('/auth/login', data);
-}
+const API_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5050/api/";
 
-export function registerUser(data) {
-  return axios.post('/auth/register', data);
-}
+const instance = axios.create({
+  baseURL: API_URL,
+  headers: {
+    "Content-Type": "application/json"
+  }
+});
+
+export default instance;
