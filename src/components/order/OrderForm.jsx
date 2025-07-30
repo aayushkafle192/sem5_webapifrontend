@@ -947,7 +947,7 @@
 //               <div className="form-grou">
 //                 <label>City *</label>
 //                 <input
-//                   type="text"
+//                   type="tex"
 //                   value={formData.cit}
 //                   onChange={e => handleInputChange("city", e.target.value)}
 //                   className={errors.city ? "error" : ""}
